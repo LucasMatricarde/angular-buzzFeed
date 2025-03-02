@@ -1,34 +1,34 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Voce seria um heroi ou vilao ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual super poder voce escolheria ?",
       "options":[
         {"id": 1, "name":"Raios-Lasers", "alias":"A"},
         {"id": 2, "name":"Voar", "alias":"B"},
         {"id": 3, "name":"Explodir coisas", "alias":"A"},
         {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 5, "name":"Soltar fogo pelas maos", "alias":"A"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Quem voce salvaria primeiro ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
+        {"id": 1, "name":"Criancas", "alias":"A"},
         {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 3, "name":"Nao saberia escolher", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Qual a sua maior preocupacao ao enfretar outro super ser ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
+        {"id": 1, "name":"Nao destruir predios", "alias":"B"},
         {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 3, "name":"Nao sujar meu traje", "alias":"A"},
+        {"id": 4, "name":"Nao deixar ninguem se ferir", "alias":"B"}
       ]
     },
     {
@@ -44,12 +44,12 @@
       "question": "Qual o seu apelido de super ser ?",
       "options":[
         {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 2, "name":"Amigo da vizinhanca", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Voce muito provavelmente seria um super vilao!",
+    "B": "Voce muito provavelmente seria um super Heroi!"
   }
 }

@@ -4,18 +4,18 @@
     <h3>{{ title }}</h3>
   </div>
 
-  <div class="quiz_questions">
+  <div *ngIf="!finished" class="quiz_questions">
     <h3>{{ questionSelected.question }}</h3>
   </div>
 
-  <div class="quiz_options">
-    <button class="btn-option">
-      optionname
+  <div *ngIf="!finished" class="quiz_options">
+    <button *ngFor="let option of questionSelected.options; let i = index" (click)="playerChoose(option.alias)" class="btn-option">
+      {{ option.name }}
     </button>
   </div>
 
   <div *ngIf="finished" class="quiz_results">
     <h1>O seu resultado e: </h1>
-    <p>Resposta Selecionada</p>
+    <p>{{ answerSelected }}</p>
   </div>
 </div>
